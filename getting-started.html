@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="msapplication-tap-highlight" content="no">
     <meta name="description" content="Materialize is a modern responsive CSS framework based on Material Design by Google. ">
-    <title>Documentation - Robolog</title>
+    <title>Getting Started - Robolog</title>
     <!-- Favicons-->
     <link rel="apple-touch-icon-precomposed" href="images/favicon/apple-touch-icon-152x152.png">
     <meta name="msapplication-TileColor" content="#FFFFFF">
@@ -25,90 +25,73 @@
       <div class="container"><a href="#" data-activates="nav-mobile" class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i class="mdi-navigation-menu"></i></a></div>
       <ul id="nav-mobile" class="side-nav fixed">
         <li class="logo"><a id="logo-container" href="/" class="brand-logo"><img id="front-page-logo" src="images/logoblue.png"></a></li>
-        <li class="bold"><a href="" class="waves-effect waves-teal">Home</a></li>
+        <li class="bold"><a href="/" class="waves-effect waves-teal">Home</a></li>
         <li class="bold"><a href="getting-started.html" class="waves-effect waves-teal">Getting Started</a></li>
         <li class="bold"><a href="http://frc-robolog.org" class="waves-effect waves-teal">Web Portal</a></li>
         <li class="bold"><a href="http://scoutr.juxttech.com" class="waves-effect waves-teal">Scoutr</a></li>
       </ul>
     </header>
-    <main>
-      <div class="section no-pad-bot" id="index-banner">
-        <div class="container">
-          <h1 class="header center">Robolog</h1>
-          <div class='row center'>
-            <h4 class ="header col s12 light center">FRC's most advanced logging, robot analysis, and troubleshooting system</h4>
-          </div>
-          <div class="row center">
-            <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light">Get Started</a>
-          </div>
-          <div class="row center"><a class="white-text text-lighten-4" href="https://github.com/juxtapose-technologies/robolog">alpha release v1.0.0</a></div>
-        </div>
-        <div class="github-commit">
-          <div class="container">
-            <div class="commit">
-              Latest Commit on Github:
-              &nbsp;&nbsp;
-              <a href="" class="sha"></a>
-              &nbsp;&nbsp;
-              <span class="date"></span>
-              <a id="github-button" href="https://github.com/juxtapose-technologies/robolog" class="btn-flat right grey-text text-lighten-5 waves-effect waves-light hide-on-small-only">Github</a>
-            </div>
-          </div>
-        </div>
+    <main><div class="section" id="index-banner">
+  <div class="container">
+    <div class="row">
+      <div class="col s12 m9">
+        <h1 class="header center-on-small-only">Getting Started</h1>
+        <h4 class ="light white-text center-on-small-only">Learn how to easily start using Robolog in your robot.</h4>
       </div>
+    </div>
+  </div>
+</div>
 
-      <div class="container">
-        <div class="section">
+<div class="container">
+  <!--  Outer row  -->
+  <div class="row">
 
-          <div class="row">
-            <div class="col s12 m8 offset-m2">
-              <br>
-              <img id="responsive-img" src="images/graph.png">
-            </div>
-          </div>
+    <div class="section col s12 m9 l10">
+      <div id="download" class="row scrollspy">
+        <h2 class="col s12 header blue-text">Download</h2>
+        <p class="caption col s12">The main logging system for Robolog is written in LabVIEW and composed of two VI files. These VI files should be installed in your team's Dashboard. Becaause all the logging is done through the dashboard, the VI files are fully compatible with robots coded in C++ or Java, as well as LabVIEW.</p>
 
-          <div class="row">
-            <h3 class="col s12 light center header blue-text">Robolog makes it easier to diagnose issues with your team's robot</h3>
-          </div>
-
-          <!--   Promo Section   -->
-          <div class="row">
-            <div class="col s12 m4">
-              <div class="center promo">
-                <i class="material-icons" style="color:#2196f3">flash_on</i>
-                <p class="promo-caption">Quicker troubleshooting</p>
-                <p class="light center">Robolog gets important robot metrics with the press of a button, allowing teams to easily analyze potential issues with their robot's hardware</p>
-              </div>
-            </div>
-
-            <div class="col s12 m4">
-              <div class="center promo">
-                <i class="material-icons" style="color:#2196f3">dashboard</i>
-                <p class="promo-caption">Cloud Centered</p>
-                <p class="light center">We designed a server system based off of CKAN and Shiny that allows the easy visualization of Robolog data. It can be deployed to any of the popular cloud systems, such as Azure or Heroku.</p>
-              </div>
-            </div>
-
-            <div class="col s12 m4">
-              <div class="center promo">
-                <i class="material-icons" style="color:#2196f3">settings</i>
-                <p class="promo-caption">Easy to install</p>
-                <p class="light center">We've created step by step documentation on how to install and configure Robolog, with no coding knowledge required (although some is helpful I suppose)</p>
-              </div>
-            </div>
-          </div>
-
+        <div class="col s12">
+         <a id="download-source" class="btn waves-effect waves-light blue" href="bin/robolog.zip">Download Now<i class="material-icons right">file_download</i></a>
         </div>
-        <div class="divider"></div>
-        <div class="section">
-          <div class="row center">
-            <h3 class="light header orange-text">Robolog Web Portal</h3>
-            <p class="col s8 offset-s2 caption">Apply for the closed alpha of Robolog's web portal here. Don't worry if you don't get accepted, it'll be opening up to the public as soon as testing is completed.</p>
-            <a href="http://frc-robolog.org" class="btn-large waves-effect waves-light orange">Visit the Portal</a>
-          </div>
+
+      <div id="setup" class="row scrollspy">
+        <div class="col s12">
+          <h2 class="header blue-text">Setup</h2>
+          <h4>Project Structure</h4>
+          <p>After downloading, create a new FRC Dashboard Project (in LabVIEW). Extract the downloaded zip folder and move the VI files into your project folder.</p>
+          <img src="images/step1.png">
+          <p>Your project should look something like this after installing files:</p>
+
+          <pre><code class="language-markup directory-markup">
+  My Computer/
+  |--Support/
+  |  |--App EXE.ico
+  |  |--Parse Digital Module.vi
+  |  |--Save DB Modules.vi
+  |  |--Receive DS Packet.vi
+  |  |--Decode Status Byte.vi
+  |  |--Panel Resized.vi
+  |  |--Adjust Dashboard Window.vi
+  |
+  |--TypeDefs/
+  |  |--DStoPCPacketTypeDef.ctl
+  |
+  |--Dashboard Main.vi
+  |--Robolog.vi
+  |--RL Custom Data.vi
+          </code></pre>
         </div>
+      <div class="col s12">
+        <h4>Loop Setup</h4>
+        <p>Now that you have all of the required files installed, it's time to make them work! Open up "Dashboard Main.vi" and then open up the block diaram (Ctrl E). Next, find a place for the main Robolog while loop (we usually go in between the first two main loops in the dashboard). The main Robolog while loop is where we're going to place our Robolog VI files.</p>
+        <img src="images/step2.png" class="materialboxed" width="800">
+        <p>The next thing to do is create a for loop, and set it to always run (by attaching a false constant to the loop's stop function). Then attach the blue and purple outputs from the two "notifier" functions to the loop (the notifiers will be named "Robot IP Update" and "Window Mode"). These two outputs are where all of robolog's data comes from. The next step is to add Robolog and RL Custom Data to the loop, and connect RL Custom Data's output to Robolog's input.</p>
+        <img src="images/step3.png" class="materialboxed" width="800">
       </div>
-
+    </div>
+  </div>
+</div>
 
     </main>    <footer class="page-footer">
       <div class="container">
