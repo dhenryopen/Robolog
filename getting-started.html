@@ -60,7 +60,7 @@
           <h2 class="header blue-text">Setup</h2>
           <h4>Project Structure</h4>
           <p>After downloading, create a new FRC Dashboard Project (in LabVIEW). Extract the downloaded zip folder and move the VI files into your project folder.</p>
-          <img src="images/step1.png">
+          <img src="images/1.png">
           <p>Your project should look something like this after installing files:</p>
 
           <pre><code class="language-markup directory-markup">
@@ -85,9 +85,9 @@
       <div class="col s12">
         <h4>Loop Setup</h4>
         <p>Now that you have all of the required files installed, it's time to make them work! Open up "Dashboard Main.vi" and then open up the block diaram (Ctrl E). Next, find a place for the main Robolog while loop (we usually go in between the first two main loops in the dashboard). The main Robolog while loop is where we're going to place our Robolog VI files.</p>
-        <img src="images/step2.png" class="materialboxed" width="800">
+        <img src="images/2.png" class="materialboxed" width="800">
         <p>The next thing to do is create a for loop, and set it to always run (by attaching a false constant to the loop's stop function). Then attach the blue and purple outputs from the two "notifier" functions to the loop (the notifiers will be named "Robot IP Update" and "Window Mode"). These two outputs are where all of robolog's data comes from. The next step is to add Robolog and RL Custom Data to the loop, and connect RL Custom Data's output to Robolog's input.</p>
-        <img src="images/step3.png" class="materialboxed" width="800">
+        <img src="images/3.png" class="materialboxed" width="800">
       </div>
     </div>
   </div>
