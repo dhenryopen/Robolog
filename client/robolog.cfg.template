@@ -1,0 +1,26 @@
+[robolog:ckan]
+ckan_apikey = <APIKEY>
+ckan_author = My Name
+ckan_author_email = myemail@email.com
+ckan_maintainer = My Name
+ckan_maintainer_email = myemail@email.com
+ckan_name = practicedata
+ckan_notes = Log generated during team practice
+ckan_owner_org = team-NNNN
+ckan_title = Upload Test
+ckan_version = 0.9
+
+[robolog:frc]
+cfg_file = robolog.cfg
+district = <District.DISTRICT>
+driver = <Driver.DRIVERNAME>
+event = Event.PRACT
+eventlat = <EventLat.##.###>
+eventlon = <EventLon.-##.###>
+match = Match.P1
+robot = <Robot.ROBOTNAME>
+server = http://127.0.0.1:5000
+station = Station.station1
+teamname = <Teamname.TEAMNAME>
+teamnumber = <Teamnumber.NNNN>
+

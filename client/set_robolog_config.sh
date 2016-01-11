@@ -1,0 +1,24 @@
+#!/bin/bash
+python set_robolog_config.py \
+--ckan_apikey "<API Key goes here>" \
+--ckan_author "My Name" \
+--ckan_author_email myemail@email.com \
+--ckan_maintainer "My Name" \
+--ckan_maintainer_email myemail@email.com \
+--ckan_name "010516pract08" \
+--ckan_notes "Log generated during team practice" \
+--ckan_owner_org team-4918 \
+--ckan_title "Upload Test #8"  \
+--ckan_version 0.9 \
+--cfg_file robolog.cfg \
+--district PNW \
+--driver BusterBoy \
+--event PRACT \
+--eventlat 48.101 \
+--eventlon -122.799 \
+--match P1 \
+--robot Buster \
+--server http://frc-robolog.org:5000 \
+--station station1 \
+--teamname Roboctopi \
+--teamnumber 4918 
