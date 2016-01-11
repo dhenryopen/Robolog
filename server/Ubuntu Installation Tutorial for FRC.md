@@ -50,7 +50,7 @@ The most commonly used version of Ubuntu is [Ubuntu 14.04.03 LTS](http://release
 
 **Host Machine**
 
-A laptop, PC or Mac with 4GB of *available* RAM is required for Robolog. A minimum of 10GB of dedicated disk space is needed.  The base Ubuntu Desktop installation consumes about 5.5GB of disk space (including swap space); plan to allocate several GB more for applications and temporary files. 
+A laptop, PC or Mac with 4GB of *available* RAM is required for Robolog. A minimum of 15GB of dedicated disk space is needed.  The base Ubuntu Desktop installation consumes about 5.5GB of disk space (including swap space); plan to allocate several GB more for applications and temporary files. 
 
 ### Internet Access
 
@@ -71,7 +71,7 @@ You'll need to be connected to the Internet to perform software updates and pack
 * **Create a virtual hard disk now:** yes
 * **Hard disk file type:** VDI (default)
 * **Storage on physical hard disk:** dynamically allocated (default)
-* **File location and size:** default location, 10GB
+* **File location and size:** default location, 15GB
 
 Click _Create_ and the VM will be ready to power on. 
 
