@@ -5,17 +5,17 @@ library(shiny)
 library(ckanr)
 library(jsonlite)
 
-ckan_url <- 'http://frc-robolog.org:5000/'
+ckan_url <- 'http://localhost:5000/'
 ckanr_setup(url = ckan_url)
 
 ui <- fluidPage(
     
      titlePanel("Robolog Data Portal"),
      hr(),
-     textInput("queryString", "CKAN Query:", "format:CSV"),  # format:JSON also works
+     textInput("queryString", "CKAN Query:", "format:JSON"),  # format:JSON also works
      radioButtons("scope", label = "Scope:",
                   choices = list("Dataset" = 1, "Resource" = 2),
-                selected = 1),
+                selected = 2),
      actionButton("execute", "Execute"),
      hr(),
      htmlOutput("query")

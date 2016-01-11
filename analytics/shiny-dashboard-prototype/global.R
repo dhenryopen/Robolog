@@ -21,7 +21,7 @@ library(jsonlite)
 
 ### Set the CKAN server URL
 
-ckan_url <- 'http://frc-robolog.org:5000/'
+ckan_url <- 'http://localhost:5000/'
 
 ### Initialize the environment
 
