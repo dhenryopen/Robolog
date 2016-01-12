@@ -21,11 +21,12 @@
 
 * If you need to install Ubuntu, follow the directions in the [Ubuntu Installation Tutorial for FRC](server/Ubuntu Installation Tutorial for FRC.md)
 * If you already have access to Ubuntu Desktop 14.04 LTS (64-bit), proceed to the [Robolog Server](server/README.md) setup guide 
+* Once you've installed the Robolog server, review the instructions for installing and testing the [analytic samples](analytics/README.md)
+* The [client](client/README.md) directory has more information on the three command-line utilities that are used to configure Robolog and create datasets and resources
 
 ## Demos & Samples
-* Robolog data portal running on Microsoft Azure: [http://bit.ly/1S6eivC](http://bit.ly/1S6eivC)
-* A Shiny dashboard running on [RStudio's](http://www.rstudio.com) shinyapps.io platform: [http://bit.ly/1JZChVm](http://bit.ly/1JZChVm)
-* Accessing the Robolog data portal directly from R using from [ROpenSci's](https://ropensci.org/)[ckanr](https://github.com/ropensci/ckanr) package: [bit.ly/1OPbHWn](http://bit.ly/1OPbHWn)
+* [Robolog Data Portal](http://frc-robolog.org:5000) running on Microsoft Azure
+* [Robolog Metrics](htp://frc-robolog.org:3838/shiny-dashboard-prototype) dashboard running on a Shiny server
 
 ## Roadmap
 * Implement a common schema for robot metrics. This will encourage benchmarking between FRC teams and support "data harvesting" at scale. Suggestion is to evaluate the [data packages](http://dataprotocols.org/tabular-data-package/) format established by the [Open Knowledge Labs](http://okfnlabs.org/)
@@ -104,4 +105,4 @@
 
 ## Repository
 
-The main Robolog repository is [https://github.com/juxtapose-technologies/robolog](https://github.com/juxtapose-technologies/robolog)
+The official Robolog repository is [https://github.com/juxtapose-technologies/robolog](https://github.com/juxtapose-technologies/robolog)
