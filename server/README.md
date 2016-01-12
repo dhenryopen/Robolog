@@ -38,6 +38,10 @@ A publicly-visible IP address is required if you want to access CKAN from extern
 
 NOTE: this is an optional step. You can use Firefox from the Ubuntu desktop to connect to CKAN locally. If you decide to configure Ubuntu as a network host, change the "127.0.0.1" references below to the assigned IP address for your Ubuntu instance.
 
+*Tip*:  if you're using a hosting service you'll need to modify the network configuration to enable access to the various servers that Robolog uses.  Here's an example of how this might look in Microsoft Azure:
+
+![alt text](images/azure_inbound_security_rules.png)
+
 ## Download and configure the CKAN prerequisites
 
 Install the Ubuntu package prerequisites:
