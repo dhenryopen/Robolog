@@ -14,8 +14,8 @@
 ## Components
 * A custom LabVIEW [VI module](http://www.ni.com/pdf/manuals/372668d.pdf) that acts as a central "data logger", recording robot metrics at 100ms intervals
 * The [CKAN open source data portal](http://ckan.org/) for data ingestion, tagging, indexing, search, retrieval and collaboration 
-* A Python client for configuring [metadata](https://github.com/dhenryopen/FRC-2016/blob/master/Robolog/client/set_robolog_config.py)
-* A Python client for creating CKAN [datasets](https://github.com/dhenryopen/FRC-2016/blob/master/Robolog/client/create_robolog_dataset.py) (packages) and [resources](https://github.com/dhenryopen/FRC-2016/blob/master/Robolog/client/create_robolog_resource.py) (log files)
+* A Python client for configuring metadata
+* A Python client for creating CKAN datasets and resources (i.e. robot log files)
 
 ## Getting Started
 
@@ -26,7 +26,7 @@
 
 ## Demos & Samples
 * [Robolog Data Portal](http://frc-robolog.org:5000) running on Microsoft Azure
-* [Robolog Metrics](htp://frc-robolog.org:3838/shiny-dashboard-prototype) dashboard running on a Shiny server
+* [Robolog Metrics](http://frc-robolog.org:3838/shiny-dashboard-prototype) dashboard running on a Shiny server
 
 ## Roadmap
 * Implement a common schema for robot metrics. This will encourage benchmarking between FRC teams and support "data harvesting" at scale. Suggestion is to evaluate the [data packages](http://dataprotocols.org/tabular-data-package/) format established by the [Open Knowledge Labs](http://okfnlabs.org/)
@@ -34,6 +34,7 @@
 * Prototype a solution for error condition detection and correlation
 * Implement alternative clients (e.g. Node.js) 
 * Test and document CKAN security for multi-team deployments
+* Document running CKAN on apache2
 
 ## Metrics (preliminary, subject to change)
     Date                 : chr  "12/22/2015" "12/22/2015" "12/22/2015" "12/22/2015" ...

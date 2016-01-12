@@ -24,7 +24,7 @@ The following setup is recommended for a basic evaluation:
 
 * [Ubuntu 14.04.03 LTS (64-bit)](https://wiki.ubuntu.com/TrustyTahr/ReleaseNotes?_ga=1.253912650.374798248.1451753044). Use the desktop version if you want to evaluate Robolog in a self-contained environment.
 * 4.0GB (4096MB) of RAM
-* 10GB of disk space (minimum). Each Robolog telemetry file will use between 2MB-3MB of space (uncompressed).
+* 15GB of disk space (minimum). Each Robolog telemetry file will use between 2MB-3MB of space (uncompressed).
 
 The guide assumes the use of CKAN 2.5.1 and Python 2.7.6.
 
