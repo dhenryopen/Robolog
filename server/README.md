@@ -150,7 +150,7 @@ Start CKAN
 
 *Tip*: to start CKAN so it remains running in the backgroup after you log out of Ubuntu, type:
 
-    nohup serve /etc/ckan/default/development.ini &
+    nohup paster serve /etc/ckan/default/development.ini &
     
 From the Ubuntu desktop, launch Firefox and navigate to the CKAN URL (http://127.0.0.1:5000).  Click "login", if you see the following log page you have successfully started CKAN:
 
